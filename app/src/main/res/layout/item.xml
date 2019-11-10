@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
@@ -10,22 +10,20 @@
         android:layout_margin="8dp">
 
         <TextView
-            android:id="@+id/textViewTittle"
+            android:id="@+id/textViewTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
-            android:text="@string/card_title"
-            android:theme="@style/TextAppearance.AppCompat.Title" />
+            android:text="@string/card_title" />
 
         <TextView
-            android:id="@+id/textViewSubTittle"
+            android:id="@+id/textViewSubTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:layout_marginTop="40dp"
-            android:text="@string/card_subtitle"
-            android:theme="@style/TextAppearance.AppCompat.Subhead" />
+            android:text="@string/card_subtitle" />
 
         <TextView
             android:id="@+id/textViewBody"
@@ -33,8 +31,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:layout_marginTop="80dp"
-            android:text="@string/card_body"
-            android:theme="@style/TextAppearance.AppCompat.Body1" />
+            android:text="@string/card_body" />
 
     </androidx.cardview.widget.CardView>
 
