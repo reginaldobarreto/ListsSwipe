@@ -19,16 +19,6 @@ public class MainActivity extends AppCompatActivity {
     RecyclerView recyclerView;
     RecyclerAdapter adapter;
     List<Materia> listModel = new ArrayList<>();
-    private Materia nota;
-    private Materia nota1;
-    private Materia nota2;
-    private Materia nota3;
-    private Materia nota4;
-    private Materia nota5;
-    private Materia nota6;
-    private Materia nota7;
-    private Materia nota8;
-    private Materia nota9;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,16 +26,16 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
 
-        nota = new Materia("Soltaram o ladrão","ratazana na rua","Mortadela de grátis para a esquerda");
-        nota1 = new Materia("Tricolor Perde","Nova derrota","Morumbi chora");
-        nota2 = new Materia("Cabocla","Novela","Body");
-        nota3 = new Materia("Jovem Pan","Radio online","Body");
-        nota4 = new Materia("Trapalhões","Seriado","Body");
-        nota5 = new Materia("Marvel","Capitão América","Body");
-        nota6 = new Materia("DC","Mulher Maravilha","Body");
-        nota7 = new Materia("Sony","Playstation","Body");
-        nota8 = new Materia("Xbox","One X","Body");
-        nota9 = new Materia("Chabuia","Filme","Body");
+        Materia nota = new Materia("Soltaram o ladrão", "ratazana na rua", "Mortadela de grátis para a esquerda");
+        Materia nota1 = new Materia("Tricolor Perde", "Nova derrota", "Morumbi chora");
+        Materia nota2 = new Materia("Cabocla", "Novela", "Body");
+        Materia nota3 = new Materia("Jovem Pan", "Radio online", "Body");
+        Materia nota4 = new Materia("Trapalhões", "Seriado", "Body");
+        Materia nota5 = new Materia("Marvel", "Capitão América", "Body");
+        Materia nota6 = new Materia("DC", "Mulher Maravilha", "Body");
+        Materia nota7 = new Materia("Sony", "Playstation", "Body");
+        Materia nota8 = new Materia("Xbox", "One X", "Body");
+        Materia nota9 = new Materia("Chabuia", "Filme", "Body");
 
 
         listModel.add(nota);
